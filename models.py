@@ -5,8 +5,6 @@ from flask_sqlalchemy import SQLAlchemy
 DB_PATH = os.environ.get("SQLALCHEMY_DATABASE_URI")
 DB_TEST_PATH = os.environ.get("SQLALCHEMY_TEST_DATABASE_URI")
 
-DB_PATH = DB_TEST_PATH="postgresql://anush@localhost:5432/test_tweets"
-
 db = SQLAlchemy()
 
 '''
