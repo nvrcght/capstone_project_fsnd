@@ -1,3 +1,16 @@
+
+# Heroku URL
+
+https://udacity-capston.herokuapp.com/
+
+# Authentication
+
+Tokens for 2 roles are provided in test_apis.py
+
+ADMIN_TOKEN represents admin user.
+USER_TOKEN represents user who has limited permissions.
+
+
 # Tweeter Light APP documentation
 
 ## Tweeter Light
@@ -7,9 +20,6 @@ Tweeter Light is a simple application that allows posting tweets.
 The app has 2 roles: user and admin.
 User can only view tweets and users, wherease adming can create, update and delete tweets and create users.
 
-## Heroku URL
-
-https://udacity-capston.herokuapp.com/
 
 # Dependencies
 ## Python 3.7
@@ -23,12 +33,7 @@ pip install -r requirements.txt
 
 ## API Documentation
 
-### Authentication
 
-Tokens for 2 roles are provided in test_apis.py
-
-ADMIN_TOKEN represents admin user.
-USER_TOKEN represents user who has limited permissions.
 
 ### Endpoints
 
